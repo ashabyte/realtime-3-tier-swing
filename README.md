@@ -30,7 +30,6 @@ Studi kasus pengembangan aplikasi perangkat lunak desktop cross-platform real-ti
           <li>config</li>
         </ul>
     </ul>
-  <li><b>Realtime Websocket Server (Node.js + Socket.IO)</b> https://github.com/fachrulpbm/realtime-websocket-server</li>
   <li><b>Data-Tier</b></li>
     <ul>
       <li><b>Data Source Layer</b></li>
@@ -38,4 +37,5 @@ Studi kasus pengembangan aplikasi perangkat lunak desktop cross-platform real-ti
           <li>DBMS MySQL</li>
         </ul>
     </ul>
+  <li><b>Realtime Websocket Server (Node.js + Socket.IO)</b> https://github.com/fachrulpbm/realtime-websocket-server</li>
 </ol>
