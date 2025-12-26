@@ -1,13 +1,10 @@
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
-
 import com.formdev.flatlaf.intellijthemes.FlatLightFlatIJTheme;
+import controller.IdolController;
+import view.IdolFrame;
 
-import controller.MahasiswaController;
-import view.MahasiswaFrame;
-
-public class EduCoreApp{
-
+public class GroupKpopApp {
     public static void main(String[] args) {
         try {
             UIManager.setLookAndFeel(new FlatLightFlatIJTheme());
@@ -16,11 +13,9 @@ public class EduCoreApp{
         }
 
         SwingUtilities.invokeLater(() -> {
-            MahasiswaFrame frame = new MahasiswaFrame();
-            new MahasiswaController(frame);
+            IdolFrame frame = new IdolFrame();
+            new IdolController(frame);
             frame.setVisible(true);
         });
     }
-
 }
-
